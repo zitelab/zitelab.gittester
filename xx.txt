@@ -1,2 +1,463 @@
-test
-test
+# DanbioPatient manual pot.
+# Niels Steen Krogh <nielssteenkrogh@zitelab.dk>, 2007
+msgid ""
+msgstr ""
+"Project-Id-Version: zitelab.homepatient\n"
+"POT-Creation-Date: 2007-03-15 18:41+0000\n"
+"PO-Revision-Date: 2007-03-15 15:43+0100\n"
+"Last-Translator: Radim Novotny <novotny.radim@gmail.com>\n"
+"Language-Team: CoreNet <info@corenet.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: cs\n"
+"Language-Name: Czech\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: zitelab.homepatient2\n"
+
+
+
+
+msgid "Please wait my_data..."
+msgstr "Henter patientdata. Det tager et par sekunder ..."
+
+msgid "Please wait my_touch..."
+msgstr "Henter skema. Det tager et par sekunder ..."
+
+msgid "Please wait my_medicine..."
+msgstr "Lidt teknisk info om teknikken bag medens du venter på medicindata fra FMK...: Medicin trækkes vha saml2 assertion certifikat (testlæge), der sendes til STS, omveksles til SOSI-ID, derefter sendes til FMK test løsning webservice med cpr inkluderet. FMK returnerer en xml-struktur med medicindata. Løsningen er udviklet over 2 dage (torsdag og fredag i sidste uge) som studie i, hvordan opensource teknologi og den nationale servicearkitektur for systemintegration kan skabe resultater. Systemet er på vej til certificering og vil blive anvendt til realtime opslag i FMK som del af danbio-online.dk "
+
+
+msgid "touch_shadowbox_tab_dropdown"
+msgstr "Her kan du beskrive din tilstand."
+
+msgid "scoreboard_shadowbox_tab_dropdown"
+msgstr "Her kan du se dine patientdata"
+
+msgid "help_shadowbox_tab_dropdown"
+msgstr "Her finder du generel hjælp til dette websted og instruktion i at beskrive din tilstand præcist"
+
+msgid "medicine_shadowbox_tab_dropdown"
+msgstr "Her finder du en oversigt over din medicinering (FMK)"
+
+msgid "chat_table_shadowbox"
+msgstr "Her kan du kommunikere med sundhedspersonale og din Atolyser samt se tidligere kommunikation"
+
+msgid "tab_Tasklist"
+msgstr "Mine opgaver"
+
+msgid "tab_Chat"
+msgstr "Kommunikation"
+
+msgid "Communication"
+msgstr "Chat"
+
+msgid "My Communication"
+msgstr "Kommunikation"
+
+
+msgid "tab_Scoreboard"
+msgstr "Mine tal"
+
+msgid "Scoreboard"
+msgstr "Mine tal"
+
+msgid "tab_Help"
+msgstr "Hjælp"
+
+msgid "Help"
+msgstr "Hjælp"
+
+msgid "Total plan"
+msgstr "***Total plan"
+msgid "IT-help"
+msgstr "***IT-help"
+
+msgid "tab_Medicine"
+msgstr "Min medicin"
+
+msgid "Medicine"
+msgstr "Mine medicin"
+
+msgid "tasklist_shadowbox_tab_dropdown"
+msgstr "Her finder du de opgaver, som skal udføres i forbindelse med din behandling"
+
+
+msgid "My tasklist"
+msgstr "Mine opgaver"
+
+msgid "My task list"
+msgstr "Mine skemaer"
+
+
+msgid "My medicine"
+msgstr "Min medicin"
+
+msgid "My Help"
+msgstr "Hjælp"
+
+msgid "My Scoreboard"
+msgstr "Mine tal"
+
+msgid "My Touchscreen"
+msgstr "Min tilstand"
+
+msgid "My Calendar"
+msgstr "Min kalender"
+
+
+msgid "My Chat"
+msgstr "Kommunikation"
+
+msgid "history_area_recent_posts"
+msgstr "Tidligere beskeder: (vælg 'hvem' under 'skriv med')"
+
+msgid "task ssn"
+msgstr "Patient"
+
+msgid "task title"
+msgstr "Opgave navn"
+
+msgid "task type"
+msgstr "Opgave type"
+
+msgid "task Scheduled at"
+msgstr "Tidspunkt"
+
+msgid "task Status"
+msgstr "Status"
+
+msgid "task Date of doing (empty if not done)"
+msgstr "Udført"
+
+msgid "task Actions"
+msgstr "Handling"
+
+
+msgid "DMARD_MTX"
+msgstr "MTX(M)"
+msgid "DMARD_FOLIMET"
+msgstr "Folinsyre(M)"
+
+
+msgid "CRP"
+msgstr "CRP(L)"
+
+msgid "ALAT"
+msgstr "Alat(L)"
+
+msgid "TOUCHFROMHOME"
+msgstr "Skema(S)" 
+
+msgid "DOCTOR"
+msgstr "Kons-læge(K)"
+
+msgid "MEDICINENURSE"
+msgstr "Kons-sygepl.(K)"
+
+msgid "ONLINEVIDEO"
+msgstr "Video-kons(K)"
+
+
+msgid "Previous month"
+msgstr "Tidligere måned"
+
+msgid "Next month"
+msgstr "Næste måned"
+
+msgid "Monday"
+msgstr "Mandag"
+
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+msgid "Wednesday"
+msgstr "Onsdag"
+
+msgid "Thursday"
+msgstr "Torsdag"
+
+msgid "Friday"
+msgstr "Fredag"
+
+msgid "Saturday"
+msgstr "Lørdag"
+
+msgid "Sunday"
+msgstr "Søndag"
+
+msgid "January"
+msgstr "Januar"
+
+msgid "February"
+msgstr "Februar"
+
+msgid "March"
+msgstr "Marts"
+
+msgid "April"
+msgstr "April"
+
+msgid "May"
+msgstr "Maj"
+
+msgid "June"
+msgstr "Juni"
+
+msgid "July"
+msgstr "Juli"
+
+msgid "August"
+msgstr "August"
+
+msgid "September"
+msgstr "September"
+
+msgid "October"
+msgstr "Oktober"
+
+msgid "November"
+msgstr "November"
+
+msgid "December"
+msgstr "December"
+
+msgid "Planned visit"
+msgstr "Start skema (tager 5-15 minutter at besvare)"
+
+
+msgid "plan_visitnumber" 
+msgstr "Besøg nr"
+msgid "plan_date"
+msgstr "Dato"
+msgid "plan_datespan"
+msgstr "+/-"
+
+msgid "plan_who"
+msgstr "Hvem"
+
+msgid "plan_location"
+msgstr "Hvor"
+
+msgid "plan_taskattribute"
+msgstr "Hvad"
+
+msgid "plan_donestatus"
+msgstr "Status"
+msgid "plan_statusdate"
+msgstr "Status dato"
+
+msgid "plan_deltasincestart"
+msgstr "Dage siden start"
+
+msgid "plan_deltasincelatest"
+msgstr "Dage senere"
+
+msgid "No plan available"
+msgstr "Ingen plan for dig i Elector endnu"
+
+
+msgid "No video avaiable in your protocol"
+msgstr "Der er ingen video adgang for din protokol"
+
+msgid "You cannot see video before completing first joint score"
+msgstr "Du kan først se video om ledskoring, EFTER du har udfyldt skema for ledskoring FØRSTE GANG. "
+
+msgid  "HAQ menu Form"
+msgstr "Helbreds- vurdering (HAQ)"
+
+
+msgid "ADL-Q menu form"
+msgstr "Funktionsniveau II (ADL-Q)"
+
+msgid "Paindetect menu form"
+msgstr "Smerteskema (paindetect)"
+
+
+msgid  "HAQ"
+msgstr "***HAQ"
+
+
+msgid "ADLQ"
+msgstr "**ADLQ"
+
+msgid "PAINDETECT"
+msgstr "***Paindetect"
+
+msgid "JointScore"
+msgstr "**Joint evaluation"
+
+
+msgid "INSTRUCTIONORAL"
+msgstr "***Oral instruction?"
+
+msgid "INSTRUCTIONVIDEO"
+msgstr "***Video instruction?"
+
+
+msgid "Tasks:"
+msgstr "***Tasks:"
+
+
+msgid "If you have any questions use the help icon on the right at any time. Use the start button below to start with your first task."
+msgstr "***If you have any questions use the help icon on the right at any time. Use the start button below to start with your first task."
+
+
+
+
+msgid "ELECTOR"
+msgstr "***ELECTOR FROM HOME"
+
+msgid "Start Task"
+msgstr " ***Start Task"
+
+msgid "Thank you for completing the task"
+msgstr "***Thank you for completing the task"
+
+msgid "You have successfully completed the task. Now if you press the button \"Start Next task\" below, the next task will start."
+msgstr "***You have successfully completed the task. Now if you press the button \"Start Next task\" below, the next task will start."
+
+msgid "If you have any questions use the help icon on the right at any time."
+msgstr "***If you have any questions use the help icon on the right at any time."
+
+msgid "Start Next Task"
+msgstr " ***Start Next Task"
+
+
+msgid "Bravo! You have completed all the tasks"
+msgstr "***Thanks. You have now completed all the tasks. You can now logout"
+
+msgid "You have no more tasks to do for today."
+msgstr "***You have no more tasks to do for today."
+
+msgid "Thank you for your time, for any questions please contact us info@zitelab.eu"
+msgstr "***Thank you for your time, for any questions please contact us information@zitelab.eu"
+
+msgid " Logout "
+msgstr " ***Log out "
+
+msgid "Logout"
+msgstr " ***Log out "
+
+
+
+msgid "Close"
+msgstr "***Close"
+
+msgid "Contact Us"
+msgstr "***Contact us"
+
+msgid "heading_send_feedback_confirm"
+msgstr "***Your question or your feedback has been sent to ELECTOR."
+
+msgid "message_send_feedback_confirm"
+msgstr "** We will respond as soon as possible. The ELECTOR support team."
+
+msgid "description_contact_site_owner"
+msgstr "***Write to ELECTOR support team with your questions, your complaints or suggestions. Please be aware that our support function is not a health care unit. If you hare health related questions please use the normal channels contaction your GP or the hospital."
+
+
+msgid "heading_contact_form"
+msgstr "***Contact ELECTOR"
+
+msgid "label_subject"
+msgstr "***Subject"
+
+msgid "label_subject"
+msgstr "***Subject"
+
+msgid "label_message"
+msgstr "***Message"
+
+msgid "help_message"
+msgstr "***White your message below"
+
+msgid "label_required"
+msgstr "***Mandatory field"
+
+
+msgid "You have incomplete personal information"
+msgstr "*** You have an incomplete profile concerning name, email or telephone-number"
+
+msgid "Please click this button to fill up the missing required information"
+msgstr "***Please click this button to fill up the missing required information"
+
+msgid "Welcome!"
+msgstr "***Used id: "
+
+
+
+msgid "Name Unknown"
+msgstr "***Name unknown"
+
+msgid "No email"
+msgstr "***Email unknown"
+
+msgid "No phone"
+msgstr "***Telephone unknown"
+
+
+msgid "If you have any IT related technical questions please call this number <strong>+45 53 77 10 05</strong>"
+msgstr "***If you have any IT-related technical questions for ELECTOR - please call this number where you can reach the developers of ELECTOR software (Danish, English, Polish languge available): <strong>+45 53 77 10 05</strong>"
+
+msgid "OR write email here <strong>lukaszfilinski@zitelab.dk</strong>"
+msgstr "***OR write email to <strong>lukaszfilinski@zitelab.dk</strong>"
+
+msgid "Check your browser for ELECTOR compatibility before login."
+msgstr "***Check your browser for ELECTOR compatibility before login."
+
+msgid "Browser Compatibility Check"
+msgstr " ***Browser Compatibility Check"
+
+msgid "Welcome to ELECTOR"
+msgstr "***Welcome to ELECTOR"
+
+msgid "To login with NEMID use the button below"
+msgstr "***Danish patient: Login with NEMID - use the button below"
+
+msgid "Login with NEMID"
+msgstr " ***Login with NEMID"
+
+msgid "To login with Two Factor use the button below"
+msgstr "***English or Czech patient: Login with two-factor sms-login - use button below"
+
+msgid "Login with two factor"
+msgstr " ***Login with two-factor sms-login" 
+
+
+
+msgid "bc_Subject"
+msgstr "***Subject"
+
+msgid "bc_Finding"
+msgstr "***Our finding"
+
+msgid "bc_Validation"
+msgstr "***Valuation"
+
+
+msgid "bc_Browser type and version"
+msgstr "***Browser type and version"
+
+msgid "bc_Operative system type and version"
+msgstr "**Operative system and version"
+
+msgid "bc_Device type"
+msgstr "***Device type"
+
+msgid "bc_Conclusion"
+msgstr "***Conclusion"
+
+msgid "bc_compatible"
+msgstr "***Compatible"
+
+msgid "bc_Not ok - see above"
+msgstr "***Not ok - see above"
+
+msgid "bc_Not compatible"
+msgstr "***Not compatible (or we cannot verify your system as compatible) - contact our IT-support - see below"
+
+
+msgid "Edit personal information"
+msgstr "***Edit personal profile"
