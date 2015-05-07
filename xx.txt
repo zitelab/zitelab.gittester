@@ -17,7 +17,7 @@ msgstr ""
 "Domain: zitelab.homepatient2\n"
 
 
-
+#updated
 
 msgid "Please wait my_data..."
 msgstr "Henter patientdata. Det tager et par sekunder ..."
